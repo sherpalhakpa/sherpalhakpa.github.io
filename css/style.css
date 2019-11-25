@@ -1,4 +1,4 @@
-.slides-navigation .prev {
+.slides-navigation a.prev {
   width: 47px;
   height: 47px;
   background-size: cover;
@@ -8,7 +8,7 @@
 
 }
 
-.slides-navigation .next {
+.slides-navigation a.next {
   width: 47px;
   height: 47px;
   background-size: cover;
