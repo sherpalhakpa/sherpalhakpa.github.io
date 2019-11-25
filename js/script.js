@@ -1,5 +1,8 @@
 $(document).ready(function() {
 
-    $('#slides').superslides();
-    
+    $('#slides').superslides({
+      animation: 'slide',
+      play: 5000
+    });
+
 });
