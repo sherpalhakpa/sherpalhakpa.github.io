@@ -48,5 +48,13 @@
 }
 
 .titleText .Heading .sub {
-  font-size: 30px;
+  font-size: 23px;
+}
+
+.section {
+  padding: 100px 0;
+}
+
+.aboutImage{
+  max-width: 100%;
 }
