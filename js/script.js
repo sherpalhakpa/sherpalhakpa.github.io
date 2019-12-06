@@ -81,7 +81,7 @@ $(document).ready(function() {
       if($(window).scrollTop() >= navTop){
         body.addClass("fixedNav"); //make navigation fixed
       }
-      otherwise
+      //otherwise
       else {
         body.removeClass("fixedNav");
       }
