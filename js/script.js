@@ -1,19 +1,26 @@
 $(document).ready(function() {
 
+
+    //background changing speed
     $('#slides').superslides({
       animation: 'slide',
       play: 5000,
       pagination: false
     });
 
+
+    //typed animation via typed.js
     var typed = new Typed(".typed", {
       strings: ["Student.","Prospective Developer.","Newbie Photographer."],
       typeSpeed: 150,
       loop: true,
-      startDelay: 1000,
+      startDelay: 1000,      //delay when page is loaded first
       showCursor: false
     });
 
+
+
+    //slider-bar show 4 at max
     $('.owl-carousel').owlCarousel({
       loop:true,
       items: 4,
@@ -33,10 +40,16 @@ $(document).ready(function() {
       }
     });
 
+
+    // to determine position of skills section within the page
     var skillsTopOffset = $(".skillsSection").offset().top;
 
+
+    //when scrolled
   	$(window).scroll(function() {
 
+
+      //only start loading animation when skills section is in view
   		if(window.pageYOffset > skillsTopOffset - $(window).height() + 200) {
 
   			$('.chart').easyPieChart({
@@ -53,6 +66,9 @@ $(document).ready(function() {
   		}
   	});
 
+
+
+    //for nav section offset
     const nav = $("#navigation");
     const navTop = nav.offset().top;
 
@@ -60,10 +76,13 @@ $(document).ready(function() {
 
     function stickyNavigation(){
       const body = $("body");
+
+      //if nav section is scrolled past to reach the top of view window
       if($(window).scrollTop() >= navTop){
-        body.addClass("fixedNav");
+        body.addClass("fixedNav"); //make navigation fixed
       }
-      else {
+      otherwise
+      else { 
         body.removeClass("fixedNav");
       }
      }
