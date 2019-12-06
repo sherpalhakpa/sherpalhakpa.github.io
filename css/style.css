@@ -160,3 +160,46 @@ body {
    position: fixed;
    top: 0;
 }
+
+.fa {
+	padding: 16px;
+  font-size: 35px;
+  width: 70px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.socail a{
+	text-decoration: none;
+	display: inline-block;
+}
+
+.fa:hover {
+  background:  #8c8c8c;
+  color: white;
+}
+
+/* Facebook */
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+/* Linkedin */
+.fa-linkedin {
+  background: #0e76a8;
+  color: white;
+}
+/* Github */
+.fa-github {
+	background: #000;
+  color: white;
+}
+/* Instagram */
+.fa-instagram {
+  background: #f09433;
+  background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+  background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+  color: white;
+}
