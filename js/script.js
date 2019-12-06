@@ -82,7 +82,7 @@ $(document).ready(function() {
         body.addClass("fixedNav"); //make navigation fixed
       }
       otherwise
-      else { 
+      else {
         body.removeClass("fixedNav");
       }
      }
