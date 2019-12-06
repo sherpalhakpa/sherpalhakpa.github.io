@@ -27,4 +27,4 @@ Following Plugins were used
 Shoutouts
 ----------------------------------------------------------------
 - W3School online tutorials: https://www.w3schools.com/
-- Instagram background-color from: https://stackoverflow.com/questions/37751375/instagram-new-logo-css-background
+- Instagram background-color from: https://stackoverflow.com/questions/37751375/instagram-new-logo-css-backgroundls
