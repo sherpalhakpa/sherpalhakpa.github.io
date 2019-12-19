@@ -106,6 +106,37 @@ body {
   content: '%';
 }
 
+.filter {
+  text-align: center;
+  width: 100%;
+}
+
+.section .heading {
+  text-align: center;
+  padding-bottom: 40px;
+  width:100%;
+}
+
+.filter a {
+  text-decoration: none;
+  color: #bdc3c7;
+  border: 1px solid #bdc3c7;
+  padding: 10px 18px;
+  display: block;
+}
+
+.filter li{
+  display: inline-block;
+  padding: 5px;
+}
+
+.filter .current{
+  background-color: #8c8c8c;
+  border-color: #8c8c8c;
+  color: #fff;
+}
+
+
 .contactButton {
   color: #fff;
   padding: 15px 20px;
