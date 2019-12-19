@@ -79,12 +79,18 @@ $(document).ready(function() {
 
       //if nav section is scrolled past to reach the top of view window
       if($(window).scrollTop() >= navTop){
+        //scroll bug fix
+        //when class added account the nav offset
+        body.css("padding-top",nav.outerHeight() + "px");
         body.addClass("fixedNav"); //make navigation fixed
       }
       //otherwise
       else {
+        //when fixed navbar class removed remove the offset
+        body.css("padding-top", 0);
         body.removeClass("fixedNav");
       }
      }
+
 
 });
