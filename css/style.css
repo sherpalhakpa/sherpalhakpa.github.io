@@ -186,6 +186,10 @@ body {
 	width: 100%;
 }
 
+.items p {
+  text-align: center;
+}
+
 .items li {
 	display: inline-block;
 	padding: 5px;
@@ -219,12 +223,6 @@ body {
     margin: -23px auto 0 -45px;
     text-align: center;
     z-index: 3;
-}
-
-.items .icons i {
-	  color: #fff;
-    font-size: 20px;
-    margin-top: 9px;
 }
 
 .items a {
