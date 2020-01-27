@@ -11,7 +11,7 @@ body {
   height: 100%
   position: absolute;
   z-index: 3;
-  background-color: rgba(0,0,0,0.4);
+  background-color: rgba(0,0,0,0.9);
 }
 
 .slides-navigation .prev,
@@ -43,12 +43,12 @@ body {
   top: 50%;
   z-index: 5;
   text-align: center;
-  margin-top: -50px;
+  margin-top: -80px;
 }
 
 .titleText .Heading p {
   color: #fff;
-  text-shadow: 0px 2px 5px rgba(0,0,0,0.4);
+  text-shadow: 0px 2px 5px rgba(0,0,0,1);
   font-weight: 100;
   letter-spacing: 7px;
 }
@@ -58,7 +58,7 @@ body {
 }
 
 .titleText .Heading .sub {
-  font-size: 23px;
+  font-size: 26px;
 }
 
 .section {
