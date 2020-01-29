@@ -310,6 +310,7 @@ body {
   color: #fff;
 }
 
+
 .navbar-toggler-icon {
   background: url(../Images/icons/menu.png);
   background-size: 100%;
@@ -318,4 +319,11 @@ body {
 .fixedNav #navigation {
    position: fixed;
    top: 0;
+}
+
+.nav-link:hover {
+  outline-style: solid;
+  outline-width: 1px;
+  outline-color: #fff;
+  background-color: rgb(147, 147, 147);
 }
