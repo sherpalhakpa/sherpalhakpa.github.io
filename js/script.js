@@ -11,7 +11,7 @@ $(document).ready(function() {
 
     //typed animation via typed.js
     var typed = new Typed(".typed", {
-      strings: ["Student.","Prospective Developer.","Newbie Photographer."],
+      strings: ["Student.","Prospective Software Engineer.","Newbie Photographer."],
       typeSpeed: 150,
       loop: true,
       startDelay: 1000,      //delay when page is loaded first
