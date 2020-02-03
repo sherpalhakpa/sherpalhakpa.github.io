@@ -188,6 +188,10 @@ body {
 	width: 100%;
 }
 
+.items {
+  text-align: center;
+}
+
 .items p {
   text-align: center;
 }
