@@ -55,14 +55,29 @@ body {
   letter-spacing: 11px;
 }
 
-.titleText .Heading .main {
-  font-size: 50px;
+
+@media screen and (min-width: 601px) {
+  .titleText .Heading .main {
+    font-size: 50px;
+  }
+  .titleText .Heading .sub {
+    font-size: 26px;
+    font-style: italic;
+  }
+
 }
 
-.titleText .Heading .sub {
-  font-size: 26px;
-  font-style: italic;
+@media screen and (max-width: 600px) {
+  .titleText .Heading .main {
+    font-size: 35px;
+  }
+  .titleText .Heading .sub {
+    font-size: 17px;
+    font-style: italic;
+  }
+
 }
+
 
 .section {
   padding: 100px 0;
