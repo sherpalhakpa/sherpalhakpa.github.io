@@ -120,10 +120,6 @@ body {
   text-align: center;
 }
 
-.chart .percent::after{
-  content: '%';
-}
-
 .contactButton {
   color: #fff;
   padding: 15px 20px;
@@ -131,6 +127,10 @@ body {
   margin-top: 20px;
   border: 1px solid #fff;
   border-radius: 2px;
+}
+.chart #how {
+  top: 60px;
+  position: relative;
 }
 
 .contactButton:hover {
