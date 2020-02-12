@@ -98,6 +98,10 @@ body {
   margin-left: 10px;
 }
 
+.skill p, .skill img{
+  text-align: center;
+}
+
 .chart{
   position: relative;
   width: 152px;
