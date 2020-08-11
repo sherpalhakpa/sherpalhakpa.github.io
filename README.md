@@ -1,2 +1,2 @@
-# sherpaj.github.io
+# sherpaj.com
 Personal Portfolio
