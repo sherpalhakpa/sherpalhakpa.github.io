@@ -1437,6 +1437,7 @@ p.contact-submit-holder {
     .nav-soc {
         left: 15px;
         bottom: 15px;
+        padding: inherit;
     }
 
     .nav-container {
